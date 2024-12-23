@@ -40,9 +40,7 @@ class _NewExpense extends State<NewExpense> {
                   controller: _amountController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
-                    prefixText: '\$ ',
-                    label: Text('Amount')
-                  ),
+                      prefixText: '\$ ', label: Text('Amount')),
                 ),
               ),
             ],
@@ -50,7 +48,9 @@ class _NewExpense extends State<NewExpense> {
           Row(
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pop(context);
+                },
                 child: const Text('Cancel'),
               ),
               const Spacer(),
