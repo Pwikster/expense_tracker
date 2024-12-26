@@ -32,7 +32,7 @@ class _Expenses extends State<Expenses> {
   void _openAddExpenseOverlay() {
     showModalBottomSheet(
       context: context,
-      builder: (ctx) => NewExpense(),
+      builder: (ctx) => const NewExpense(),
     );
   }
 
