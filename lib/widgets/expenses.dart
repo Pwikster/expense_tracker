@@ -82,7 +82,7 @@ class _Expenses extends State<Expenses> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Expense Tracker'),
+        title: const Text('Expenses'),
         actions: [
           IconButton(
             onPressed: _openAddExpenseOverlay,
