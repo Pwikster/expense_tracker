@@ -14,7 +14,7 @@ void main() {
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         ),
-        cardTheme: CardTheme().copyWith(
+        cardTheme: const CardTheme().copyWith(
           color: kColorScheme.secondaryContainer,
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -22,6 +22,7 @@ void main() {
             backgroundColor: kColorScheme.primaryContainer,
           ),
         ),
+        
       ),
       home: const Expenses(),
     ),
