@@ -5,6 +5,7 @@ var kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 0, 161, 115),
 );
 void main() {
+
   runApp(
     MaterialApp(
       theme: ThemeData().copyWith(
@@ -22,7 +23,6 @@ void main() {
             backgroundColor: kColorScheme.primaryContainer,
           ),
         ),
-        
       ),
       home: const Expenses(),
     ),
